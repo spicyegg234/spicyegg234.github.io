@@ -1,0 +1,59 @@
+body{
+    background-color: antiquewhite;
+}
+        .game {
+            position: relative;
+            width: 800px;
+            height: 600px;
+        }
+
+        canvas {
+            background: #ffffff;
+            display: block;
+            margin: auto;
+        }
+
+        .ui {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            padding: 15px;
+            box-sizing: border-box;
+            color: white;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+
+        .ui button {
+            pointer-events: auto;
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 8px 16px;
+            cursor: pointer;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+        .ui span {
+            display: inline-block;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            width: 90px;
+            height: 55px;
+            position: absolute;
+            padding: 8px 16px;
+            background: rgb(175, 251, 251);
+            border: none;
+            border-radius: 8px;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            color: rgb(7, 86, 172);
+        }
